@@ -5,7 +5,7 @@
     Trainer: "siva reddy"
     Duration: "3.5 months"
   tasks:
-  - name: print override information
+  - name: print information
     vars:
       Course: "Devops"
       ansible.builtin.debug:
