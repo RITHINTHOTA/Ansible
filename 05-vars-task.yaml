@@ -1,0 +1,16 @@
+- name: variable
+  hosts: localhost
+  vars:
+    Course: "Terraform"
+    Trainer: "siva reddy"
+    Duration: "3.5 months"
+  tasks:
+  - name: print override information
+    vars:
+      Course: "Devops"
+      ansible.builtin.debug:
+      msg: "Hi, we are learning {{course}} from trainer {{trainer}},duration {{duration}}."
+  - name: print inheritance information
+    anisble.builtin.debug:
+    msg: "Hi, we are learning {{course}} from trainer {{trainer}},duration {{duration}}."
+    
