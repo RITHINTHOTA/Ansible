@@ -1,13 +1,13 @@
 - name: variable
   hosts: localhost
   vars:
-    Course: "Terraform"
-    Trainer: "siva reddy"
-    Duration: "3.5 months"
+    course: "Terraform"
+    trainer: "siva reddy"
+    duration: "3.5 months"
   tasks:
   - name: print information
     vars:
-      Course: "Devops"
+      course: "Devops"
       ansible.builtin.debug:
       msg: "Hi, we are learning {{course}} from trainer {{trainer}},duration {{duration}}."
   - name: print inheritance information
