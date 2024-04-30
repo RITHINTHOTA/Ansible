@@ -8,9 +8,8 @@
   - name: print information
     vars:
       course: "Devops"
-      ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hi, we are learning {{course}} from trainer {{trainer}},duration {{duration}}."
   - name: print inheritance information
     anisble.builtin.debug:
     msg: "Hi, we are learning {{course}} from trainer {{trainer}},duration {{duration}}."
-    
