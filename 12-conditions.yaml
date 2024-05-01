@@ -14,5 +14,5 @@
     when: USER.rc !=0
   - name: say Hello
     ansible.builtin.debug:
-      ms: "Hello"
+      msg: "Hello"
       
