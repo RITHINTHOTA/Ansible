@@ -3,9 +3,9 @@
   vars:
     course: Devops with AWS
     tools: 
-   - Linux
-   - shell
-   - Ansible
+    - Linux
+    - shell
+    - Ansible
     Experience:
      Devops: 3
      AWS: 2
