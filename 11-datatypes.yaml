@@ -10,7 +10,7 @@
       Devops: 3
       AWS: 2
       Docker: 1
-    Real Project: True
+    RealProject: True
   tasks: 
   - name: print variables
     ansible.builtin.debug:
