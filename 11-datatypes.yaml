@@ -7,9 +7,9 @@
     - shell
     - Ansible
     Experience:
-     Devops: 3
-     AWS: 2
-     Docker: 1
+      Devops: 3
+      AWS: 2
+      Docker: 1
     Real Project: True
   tasks: 
   - name: print variables
