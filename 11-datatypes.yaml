@@ -1,16 +1,16 @@
 - name: datatypes
   hosts: localhost
   vars:
-   course: Devops with AWS
-   tools: 
-  - Linux
-  - shell
-  - Ansible
-   Experience:
+    course: Devops with AWS
+    tools: 
+   - Linux
+   - shell
+   - Ansible
+    Experience:
      Devops: 3
      AWS: 2
      Docker: 1
-   Real Project: True
+    Real Project: True
   tasks: 
   - name: print variables
     ansible.builtin.debug:
